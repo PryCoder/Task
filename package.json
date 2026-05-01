@@ -11,9 +11,10 @@
     "start": "npm run build-frontend && npm run start-backend",
     "dev": "concurrently \"npm run start-backend\" \"cd frontend/v && npm run dev\""
   },
+ 
   "engines": {
-    "node": "18.x",
-    "npm": "9.x"
+    "node": "20.19.0",
+    "npm": "10.0.0"
   },
   "devDependencies": {
     "concurrently": "^8.0.0"
