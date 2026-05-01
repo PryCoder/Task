@@ -1,0 +1,31 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Remove any default margins that cause blank spaces */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Smooth transitions for theme switching */
+.chakra-ui-light,
+.chakra-ui-dark {
+  transition: background-color 0.2s ease;
+}
